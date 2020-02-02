@@ -19,6 +19,7 @@ def directors_totals(nds)
   counter = 0
   pp nds.class()
     for i in nds
+    pp i
     result = {nds[counter] => gross_for_director(nds[counter])}
   end
   return result
