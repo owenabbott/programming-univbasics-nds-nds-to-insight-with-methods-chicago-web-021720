@@ -20,7 +20,7 @@ def directors_totals(nds)
   pp nds.class()
     for i in nds
     pp i
-    result[i[:name]] => worldwide_gross(nds[counter])
+    result[i[:name]] = worldwide_gross(nds[counter])
     counter += 1
   end
   return result
