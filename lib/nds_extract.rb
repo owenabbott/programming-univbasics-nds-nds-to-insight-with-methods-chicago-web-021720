@@ -17,6 +17,7 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   counter = 0
+  result = Hash.new
   pp nds.class()
     for i in nds
     pp i
