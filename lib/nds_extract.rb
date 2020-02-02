@@ -18,9 +18,9 @@ end
 def directors_totals(nds)
   counter = 0
   result = Hash.new
-  pp nds.class()
+#  pp nds.class()
     for i in nds
-    pp i
+#    pp i
     result[i[:name]] = gross_for_director(nds[counter])
     counter += 1
   end
